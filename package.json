@@ -1,0 +1,15 @@
+{
+  "name": "mpvue-loading",
+  "version": "1.0.0",
+  "homepage": "https://github.com/auven/mpvue-loading",
+  "description": "适用于 mpvue 的加载动画插件",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Auven",
+  "license": "ISC"
+}
