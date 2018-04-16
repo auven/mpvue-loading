@@ -8,13 +8,13 @@
     </div>
     <div class="loaders">
       <div class="loaders-item">
-        <BallPulse />
+        <BallPulseLoader />
       </div>
       <div class="loaders-item">
-        <BallPulseSync />
+        <BallPulseSyncLoader />
       </div>
       <div class="loaders-item">
-        <BallPulseRise />
+        <BallPulseRiseLoader />
       </div>
       <div class="loaders-item">
         <BallRotateLoader />
@@ -56,22 +56,22 @@
         <BallZigZagDeflectLoader />
       </div>
       <div class="loaders-item">
-        <BallTrianglePath />
+        <BallTrianglePathLoader />
       </div>
       <div class="loaders-item">
-        <BallSpinFade />
+        <BallSpinFadeLoader />
       </div>
       <div class="loaders-item">
-        <BallScale />
+        <BallScaleLoader />
       </div>
       <div class="loaders-item">
-        <BallScaleRipple />
+        <BallScaleRippleLoader />
       </div>
       <div class="loaders-item">
-        <BallScaleRippleMultiple />
+        <BallScaleRippleMultipleLoader />
       </div>
       <div class="loaders-item">
-        <BallScaleMultiple />
+        <BallScaleMultipleLoader />
       </div>
 
       <div class="loaders-item">
@@ -84,22 +84,22 @@
         <BallClipRotateLoader />
       </div>
       <div class="loaders-item">
-        <BallGridBeat />
+        <BallGridBeatLoader />
       </div>
       <div class="loaders-item">
-        <BallGridPulse />
+        <BallGridPulseLoader />
       </div>
       <div class="loaders-item">
-        <BallClipRotatePulse />
+        <BallClipRotatePulseLoader />
       </div>
     </div>
   </scroll-view>
 </template>
 
 <script>
-import BallPulse from '../src/loaders/ball-pulse'
-import BallPulseSync from '../src/loaders/ball-pulse-sync'
-import BallPulseRise from '../src/loaders/ball-pulse-rise'
+import BallPulseLoader from '../src/loaders/ball-pulse'
+import BallPulseSyncLoader from '../src/loaders/ball-pulse-sync'
+import BallPulseRiseLoader from '../src/loaders/ball-pulse-rise'
 import BallRotateLoader from '../src/loaders/ball-rotate'
 import TriangleSkewSpinLoader from '../src/loaders/triangle-skew-spin'
 import SquareSpinLoader from '../src/loaders/square-spin'
@@ -116,15 +116,15 @@ import BallZigZagDeflectLoader from '../src/loaders/ball-zig-zag-deflect'
 import BallBeatLoader from '../src/loaders/ball-beat'
 import BallClipRotateMultipleLoader from '../src/loaders/ball-clip-rotate-multiple'
 import BallClipRotateLoader from '../src/loaders/ball-clip-rotate'
-import BallGridBeat from '../src/loaders/ball-grid-beat'
-import BallGridPulse from '../src/loaders/ball-grid-pulse'
-import BallClipRotatePulse from '../src/loaders/ball-clip-rotate-pulse'
-import BallScaleMultiple from '../src/loaders/ball-scale-multiple'
-import BallScaleRippleMultiple from '../src/loaders/ball-scale-ripple-multiple'
-import BallScaleRipple from '../src/loaders/ball-scale-ripple'
-import BallScale from '../src/loaders/ball-scale'
-import BallSpinFade from '../src/loaders/ball-spin-fade'
-import BallTrianglePath from '../src/loaders/ball-triangle-path'
+import BallGridBeatLoader from '../src/loaders/ball-grid-beat'
+import BallGridPulseLoader from '../src/loaders/ball-grid-pulse'
+import BallClipRotatePulseLoader from '../src/loaders/ball-clip-rotate-pulse'
+import BallScaleMultipleLoader from '../src/loaders/ball-scale-multiple'
+import BallScaleRippleMultipleLoader from '../src/loaders/ball-scale-ripple-multiple'
+import BallScaleRippleLoader from '../src/loaders/ball-scale-ripple'
+import BallScaleLoader from '../src/loaders/ball-scale'
+import BallSpinFadeLoader from '../src/loaders/ball-spin-fade'
+import BallTrianglePathLoader from '../src/loaders/ball-triangle-path'
 export default {
   components: {
     BallRotateLoader,
@@ -143,18 +143,18 @@ export default {
     BallBeatLoader,
     BallClipRotateMultipleLoader,
     BallClipRotateLoader,
-    BallGridBeat,
-    BallGridPulse,
-    BallClipRotatePulse,
-    BallPulseRise,
-    BallPulseSync,
-    BallPulse,
-    BallScaleMultiple,
-    BallScaleRippleMultiple,
-    BallScaleRipple,
-    BallScale,
-    BallSpinFade,
-    BallTrianglePath
+    BallGridBeatLoader,
+    BallGridPulseLoader,
+    BallClipRotatePulseLoader,
+    BallPulseRiseLoader,
+    BallPulseSyncLoader,
+    BallPulseLoader,
+    BallScaleMultipleLoader,
+    BallScaleRippleMultipleLoader,
+    BallScaleRippleLoader,
+    BallScaleLoader,
+    BallSpinFadeLoader,
+    BallTrianglePathLoader
   }
 }
 </script>
